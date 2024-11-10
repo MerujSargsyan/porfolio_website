@@ -1,0 +1,22 @@
+:root {
+    --orange:    #FF8811;
+    --yellow:    #F4D06F;
+    --white:     #FFF8F0;
+    --lightBlue: #9DD9D2;
+    --darkBlue:  #FF8811;
+}
+
+body {
+    background-color: var(--yellow);
+}
+
+div {
+}
+
+canvas {
+    background-color: var(--lightBlue);
+    width: 100vh;
+    height: 100vh;
+    margin-left: 12%;
+    margin-right: auto;
+}
