@@ -21,7 +21,7 @@ const redraw = () => {
     ctx.fillRect(-width/2, -height/2, width, height);
 
     ctx.fillStyle = colors.orange;
-    ctx.fillRect(Player.x, Player.y, Player.collision.x, Player.collision.y);
+    ctx.fillRect(Player.x, Player.y, Player.collision.w, Player.collision.h);
 }
 
 const resizeCanvas = () => {
