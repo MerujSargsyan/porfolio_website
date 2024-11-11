@@ -1,6 +1,6 @@
 'use strict'
 
-import {Player, parseInput} from "./game.js";
+import {keyState, Player, parseInput} from "./game.js";
 
 const colors = {
     "orange": "#FF8811",
